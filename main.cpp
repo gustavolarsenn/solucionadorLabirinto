@@ -10,7 +10,7 @@ using namespace std;
 
 int main(void){
 
-    Sistema s1("sistema");
+    Sistema s1("sistema", s1.lerTamLinha(), s1.lerTamColuna());
 
     s1.caminhoCorreto();
 
